@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disastersense"
+version = "0.1.0"
+description = "DisasterSense risk monitoring and emergency response planning project"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "DisasterSense Team" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
